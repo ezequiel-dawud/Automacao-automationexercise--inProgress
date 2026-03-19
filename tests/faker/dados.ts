@@ -29,5 +29,4 @@ export function gerarDadosPerfil(): DadosPerfil {
         estado: faker.location.state(),
         celular: faker.string.numeric(11)
     }
-
 }
