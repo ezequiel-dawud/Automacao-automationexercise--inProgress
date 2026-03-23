@@ -27,6 +27,7 @@ export default defineConfig({
 use: {
   baseURL: process.env.BASE_URL,
   trace: 'on-first-retry',
+  testIdAttribute: 'data-qa',
 },
   /* Configure projects for major browsers */
   projects: [
